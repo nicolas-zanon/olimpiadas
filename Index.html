@@ -81,13 +81,32 @@
     </div>
   <!--tabela api?-->
   <br><br>
+        <table class="medals-table">
+       
+            
+                
+                <th>País</th>
+                <th>Ouro</th>
+                <th>Prata</th>
+                <th>Bronze</th>
+                <th>Total</th>
+
+        <tbody id="medals-body">
+            <!-- Os dados serão preenchidos aqui -->
+        </tbody>
+
     <div class="container px-4 px-lg-5">
       <div class="card text-center">
         <div class="card-header">
-          <div class="row">
-            <div class="col-lg-6">
+           <thead>
+            <div class="row">
+            <tr>
+            <th><div class="col-lg">
+              <h3>Posição</h3>  
+            </div></th>
+            <th><div class="col-lg-5">
               <h3>Nome</h3>  
-            </div>
+            </div></th>
             <div class="col">
               <h3>ouroo</h3>
             </div>
@@ -100,11 +119,14 @@
             <div class="col">
               <h3>total</h3>
             </div>
+            </tr>
           </div>
-        </div>
+        </thead>
+      </div>
         <tbody id="medals-body">
             <!-- Os dados serão preenchidos aqui -->
         </tbody>
+      </table>
         <div class="card-footer text-body-secondary">
           2 days ago
         </div>
