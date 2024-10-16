@@ -1,0 +1,27 @@
+.medals-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+}
+
+.medals-table th, .medals-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.medals-table th {
+    background-color: #099aee;
+    color: white;
+}
+
+.medals-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.centro{
+    text-align: center;
+}
